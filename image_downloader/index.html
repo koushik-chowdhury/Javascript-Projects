@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Downloader</h1>
+    <p>Enter image URL:</p>
+    <input type="text" id="imageUrl" class="url-input" placeholder="Image URL">
+    <br>
+    <select id="downloadFormat" class="format-select">
+      <option value="jpg">JPEG</option>
+      <option value="png">PNG</option>
+      <option value="webp">WebP</option>
+      <option value="gif">GIF</option>
+    </select>
+    <br>
+    <button id="downloadButton" class="download-button">Download</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
