@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Format Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Format Converter</h1>
+    <div id="converter">
+        <input type="file" id="image-input" accept="image/*">
+        <label for="image-input">Select Image</label>
+        <br>
+        <div>
+            <label for="output-format">Output Format:</label>
+            <select id="output-format">
+                <option value="jpg">JPEG (.jpg)</option>
+                <option value="png">PNG (.png)</option>
+                <option value="gif">GIF (.gif)</option>
+                <option value="webp">WebP (.webp)</option>
+                </select>
+        </div>
+        <button id="convert-button">Convert Image</button>
+        <div id="download-container" style="display: none;"> <a id="download-link" href="#">Download</a>
+        </div>
+        <div id="error-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

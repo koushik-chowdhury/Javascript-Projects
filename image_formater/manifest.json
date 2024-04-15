@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Image File Type Converter",
+  "version": "1.0",
+  "description": "Convert image files between different formats",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
