@@ -99,7 +99,7 @@ function endOver() {
   const scoreDisplay = document.getElementById("score-display");
   scoreDisplay.innerText = `Team ${currentTeam} Total Score: ${totalScore} runs, Wickets: ${wickets}`;
 
-  if (currentOver > 20 || wickets === 10) {
+  if (currentOver > 6 || wickets === 10) {
     endInnings();
   } else {
     disableButtons();
